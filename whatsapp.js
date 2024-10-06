@@ -159,7 +159,7 @@ function sendMessage() {
 // Function to send a fixed WhatsApp link message
 function sendLink() {
     const orderId = document.getElementById('order-id').value;
-    const fixedNumber = document.getElementById('fixed-whatsapp-link').dataset.fixedNumber || "+201050971225"; // Default to Yasser's number
+    const fixedNumber = document.getElementById('fixed-whatsapp-link').dataset.fixedNumber || "+201111412386"; // Default to Yasser's number
     const fixedMessage = orderId;
 
     const fixedWhatsappLink = document.getElementById('fixed-whatsapp-link');
@@ -175,7 +175,7 @@ function updateFixedNumber() {
     if (selectedNumber) {
         document.getElementById('fixed-whatsapp-link').dataset.fixedNumber = selectedNumber;
     } else {
-        document.getElementById('fixed-whatsapp-link').dataset.fixedNumber = "+201050971225"; // Default number
+        document.getElementById('fixed-whatsapp-link').dataset.fixedNumber = "+201111412386"; // Default number
     }
 }
 
